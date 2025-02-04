@@ -11,7 +11,7 @@ turtle.speed(10)
 
 # starburst type shape
 while(True):
-    turtle.right(230)
+    turtle.right(200)
     turtle.forward(l)
 
 turtle.done()

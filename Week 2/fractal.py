@@ -49,5 +49,5 @@ def y(sz, level):
 penup()
 back(200)
 pendown()
-y(80, 8)
+y(80, 10)
 done()
