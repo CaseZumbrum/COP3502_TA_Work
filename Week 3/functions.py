@@ -52,13 +52,22 @@
 # print(default_func(1, y=2, z=4))
 # print(default_func(x = 1, 3, 3))
 
-
+# # ------------------------
 # # arguments
-# def argument_func(*args, **kwargs):
-#     for k, v in kwargs.items():
-#         print(f"{v}: {k}")
+# def argument_func(*args):
 #     for arg in args:
 #         print(arg)
 
 
 # argument_func(1, 2, 3, x=2, y=3)
+
+
+# # ------------------------
+# # kwargs
+
+# def kwarg_func(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key} : {value}")
+
+# kwarg_func(x=1, y=2, test="hello")
+        
