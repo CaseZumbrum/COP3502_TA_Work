@@ -11,7 +11,7 @@ for val in l:
 # list comprehension
 print("------------------")
 print("LIST COMPREHENSION")
-double = [2 * val for val in l]
+double = [3 * val + 1 for val in l]
 for val in double:
     print(val)
 
@@ -22,7 +22,7 @@ print("------------------")
 print("TUPLES VS LISTS")
 # tuples vs lists
 t = (1, 3, 4)
-# t.append(5) # this will throw an error!!!!
+# t.append(5)  # this will throw an error!!!!
 # t[1] = 0  # this will throw an error!!!
 print(t[2])
 
@@ -48,7 +48,7 @@ print("KEYS", d.keys())
 print("VALUES", d.values())
 print("LENGTH", len(d))
 print("BMW", d["BMW"])
-print(".get()", d.get("Mitsubishi", "default"))
+print(".get()", d.get("Ford", "default"))
 
 
 print("------------------")
